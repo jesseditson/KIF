@@ -13,6 +13,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *memoryWarningLabel;
 @property (weak, nonatomic) IBOutlet UITextField *otherTextField;
 @property (weak, nonatomic) IBOutlet UITextField *greetingTextField;
+@property (weak, nonatomic) IBOutlet UILabel *tapTwiceLabel;
 @end
 
 @implementation TapViewController
@@ -79,6 +80,11 @@
 - (NSString *)pickerView:(UIPickerView *)pickerView accessibilityLabelForComponent:(NSInteger)component
 {
     return @"Call Sign";
+}
+
+- (IBAction)tappedTwice:(id)sender
+{
+    self.tapTwiceLabel.text = @"Thank you!";
 }
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField

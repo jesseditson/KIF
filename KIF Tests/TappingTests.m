@@ -53,4 +53,11 @@
     [tester tapViewWithAccessibilityLabel:@"Slightly Offscreen Button"];
 }
 
+- (void)testTappingViewTwice
+{
+    [tester tapViewWithAccessibilityLabel:@"Tap me twice" value:nil traits:UIAccessibilityTraitNone numberOfTaps:2 timeBetweenTaps:0.01];
+    [tester waitForAbsenceOfViewWithAccessibilityLabel:@"Tap me twice"];
+    [tester waitForViewWithAccessibilityLabel:@"Thank you!"];
+}
+
 @end
