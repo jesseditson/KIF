@@ -73,6 +73,8 @@
 		EABD474C185F509E00A5F081 /* SenTestCase-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EABD474A185F509E00A5F081 /* SenTestCase-KIFAdditions.m */; };
 		EAC8096A1864F19C000E819F /* NSException-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = EAC809681864F19C000E819F /* NSException-KIFAdditions.h */; };
 		EAC8096B1864F19C000E819F /* NSException-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC809691864F19C000E819F /* NSException-KIFAdditions.m */; };
+		EA0F2547182979BE006FF825 /* CollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0F2546182979BE006FF825 /* CollectionViewTests.m */; };
+		EA0F254A1829839E006FF825 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0F25491829839E006FF825 /* CollectionViewController.m */; };
 		EB02523E17AA109400A7D13A /* CompositionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB02523D17AA109400A7D13A /* CompositionTests.m */; };
 		EB09001017E3696A00AA15B1 /* SearchFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB09000F17E3696A00AA15B1 /* SearchFieldTests.m */; };
 		EB22B5B017AF52640090B848 /* CascadingFailureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB22B5AF17AF52640090B848 /* CascadingFailureTests.m */; };
@@ -200,6 +202,8 @@
 		EABD474A185F509E00A5F081 /* SenTestCase-KIFAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SenTestCase-KIFAdditions.m"; sourceTree = "<group>"; };
 		EAC809681864F19C000E819F /* NSException-KIFAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSException-KIFAdditions.h"; sourceTree = "<group>"; };
 		EAC809691864F19C000E819F /* NSException-KIFAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSException-KIFAdditions.m"; sourceTree = "<group>"; };
+		EA0F2546182979BE006FF825 /* CollectionViewTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewTests.m; sourceTree = "<group>"; };
+		EA0F25491829839E006FF825 /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
 		EB02523D17AA109400A7D13A /* CompositionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompositionTests.m; sourceTree = "<group>"; };
 		EB09000F17E3696A00AA15B1 /* SearchFieldTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchFieldTests.m; sourceTree = "<group>"; };
 		EB22B5AF17AF52640090B848 /* CascadingFailureTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CascadingFailureTests.m; sourceTree = "<group>"; };
@@ -437,6 +441,7 @@
 				EB9FB42617A5BACB00DDF160 /* GestureViewController.m */,
 				EB60ECFE177F9032005A041A /* TapViewController.m */,
 				EB60ECFF177F9032005A041A /* TestSuiteViewController.m */,
+				EA0F25491829839E006FF825 /* CollectionViewController.m */,
 				EB60ECC7177F8C83005A041A /* Supporting Files */,
 			);
 			path = "Test Host";
@@ -466,6 +471,7 @@
 				EB60ED0A177F90BA005A041A /* SystemTests.m */,
 				EB60ED0B177F90BA005A041A /* TappingTests.m */,
 				EB3F654417AA0B8400469D18 /* TableViewTests.m */,
+				EA0F2546182979BE006FF825 /* CollectionViewTests.m */,
 				EB02523D17AA109400A7D13A /* CompositionTests.m */,
 				EB60ED0C177F90BA005A041A /* TypingTests.m */,
 				EB60ED0D177F90BA005A041A /* WaitForAbscenceTests.m */,
@@ -800,6 +806,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB9FB42717A5BACB00DDF160 /* GestureViewController.m in Sources */,
+				EA0F254A1829839E006FF825 /* CollectionViewController.m in Sources */,
 				EB60ECCD177F8C84005A041A /* main.m in Sources */,
 				EB60ED00177F9032005A041A /* AppDelegate.m in Sources */,
 				EB60ED01177F9032005A041A /* ShowHideViewController.m in Sources */,
@@ -822,6 +829,7 @@
 				EB60ED14177F90BA005A041A /* TappingTests.m in Sources */,
 				EB60ED15177F90BA005A041A /* TypingTests.m in Sources */,
 				EB60ED16177F90BA005A041A /* WaitForAbscenceTests.m in Sources */,
+				EA0F2547182979BE006FF825 /* CollectionViewTests.m in Sources */,
 				EB60ED17177F90BA005A041A /* WaitForTappableViewTests.m in Sources */,
 				EB60ED18177F90BA005A041A /* WaitForViewTests.m in Sources */,
 				EB9FC00517E144B700138266 /* LandscapeTests.m in Sources */,
