@@ -20,7 +20,6 @@
 		EB60ECD3177F8C84005A041A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EB60ECD2177F8C84005A041A /* Default.png */; };
 		EB60ECD5177F8C84005A041A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB60ECD4177F8C84005A041A /* Default@2x.png */; };
 		EB60ECD7177F8C84005A041A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB60ECD6177F8C84005A041A /* Default-568h@2x.png */; };
-		EB60ECEC177F8DB3005A041A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB4C3138167BA3D200E31109 /* SenTestingKit.framework */; };
 		EB60ECED177F8DB3005A041A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB072B413971AEA008AF393 /* UIKit.framework */; };
 		EB60ECEE177F8DB3005A041A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB0726B139719AC008AF393 /* Foundation.framework */; };
 		EB60ECF4177F8DB3005A041A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB60ECF2177F8DB3005A041A /* InfoPlist.strings */; };
@@ -54,7 +53,6 @@
 		EB72044D1680DDAD00278DA2 /* KIFTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = EB4C3128167BA37B00E31109 /* KIFTestCase.m */; };
 		EB72044E1680DDAD00278DA2 /* KIFSystemTestActor.m in Sources */ = {isa = PBXBuildFile; fileRef = EB4C3131167BA3AC00E31109 /* KIFSystemTestActor.m */; };
 		EB72044F1680DDAD00278DA2 /* KIFUITestActor.m in Sources */ = {isa = PBXBuildFile; fileRef = EB4C3133167BA3AC00E31109 /* KIFUITestActor.m */; };
-		EB7204511680DDAD00278DA2 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB4C3138167BA3D200E31109 /* SenTestingKit.framework */; };
 		EB7204521680DDAD00278DA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB0726B139719AC008AF393 /* Foundation.framework */; };
 		EB7204531680DDAD00278DA2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB072B413971AEA008AF393 /* UIKit.framework */; };
 		EB7204551680DDAD00278DA2 /* KIF-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AAB0728113971A63008AF393 /* KIF-Prefix.pch */; };
@@ -81,7 +79,6 @@
 		EBAE488717A4E5C30005EE19 /* KIFTestStepValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = EBAE488517A4E5C30005EE19 /* KIFTestStepValidation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EBAE488817A4E5C30005EE19 /* KIFTestStepValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = EBAE488617A4E5C30005EE19 /* KIFTestStepValidation.m */; };
 		EBAFFF3817C7C824003E3A1C /* SenTestCase-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = EBAFFF3617C7C824003E3A1C /* SenTestCase-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EBAFFF3917C7C824003E3A1C /* SenTestCase-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EBAFFF3717C7C824003E3A1C /* SenTestCase-KIFAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -131,7 +128,6 @@
 		EB4C3131167BA3AC00E31109 /* KIFSystemTestActor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIFSystemTestActor.m; sourceTree = "<group>"; };
 		EB4C3132167BA3AC00E31109 /* KIFUITestActor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIFUITestActor.h; sourceTree = "<group>"; };
 		EB4C3133167BA3AC00E31109 /* KIFUITestActor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIFUITestActor.m; sourceTree = "<group>"; };
-		EB4C3138167BA3D200E31109 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		EB60ECC1177F8C83005A041A /* Test Host.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test Host.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB60ECC4177F8C83005A041A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		EB60ECC8177F8C83005A041A /* Test Host-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Test Host-Info.plist"; sourceTree = "<group>"; };
@@ -141,7 +137,7 @@
 		EB60ECD2177F8C84005A041A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		EB60ECD4177F8C84005A041A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		EB60ECD6177F8C84005A041A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		EB60ECEB177F8DB3005A041A /* KIF Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KIF Tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB60ECEB177F8DB3005A041A /* KIF Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KIF Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB60ECF1177F8DB3005A041A /* KIF Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KIF Tests-Info.plist"; sourceTree = "<group>"; };
 		EB60ECF3177F8DB3005A041A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EB60ECF8177F8DB3005A041A /* KIF Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KIF Tests-Prefix.pch"; sourceTree = "<group>"; };
@@ -171,6 +167,7 @@
 		EBAE488617A4E5C30005EE19 /* KIFTestStepValidation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIFTestStepValidation.m; sourceTree = "<group>"; };
 		EBAFFF3617C7C824003E3A1C /* SenTestCase-KIFAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SenTestCase-KIFAdditions.h"; sourceTree = "<group>"; };
 		EBAFFF3717C7C824003E3A1C /* SenTestCase-KIFAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SenTestCase-KIFAdditions.m"; sourceTree = "<group>"; };
+		F34ABB4618D23E7300264D3C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,7 +186,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB60ED1C177F90F0005A041A /* libKIF.a in Frameworks */,
-				EB60ECEC177F8DB3005A041A /* SenTestingKit.framework in Frameworks */,
 				EB60ECED177F8DB3005A041A /* UIKit.framework in Frameworks */,
 				EB60ECEE177F8DB3005A041A /* Foundation.framework in Frameworks */,
 				EB60ED1B177F90EA005A041A /* CoreGraphics.framework in Frameworks */,
@@ -200,7 +196,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB7204511680DDAD00278DA2 /* SenTestingKit.framework in Frameworks */,
 				EB7204521680DDAD00278DA2 /* Foundation.framework in Frameworks */,
 				EB7204531680DDAD00278DA2 /* UIKit.framework in Frameworks */,
 			);
@@ -225,7 +220,7 @@
 			children = (
 				EB72047C1680DDAD00278DA2 /* libKIF.a */,
 				EB60ECC1177F8C83005A041A /* Test Host.app */,
-				EB60ECEB177F8DB3005A041A /* KIF Tests.octest */,
+				EB60ECEB177F8DB3005A041A /* KIF Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -233,7 +228,7 @@
 		AAB0726A139719AC008AF393 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EB4C3138167BA3D200E31109 /* SenTestingKit.framework */,
+				F34ABB4618D23E7300264D3C /* XCTest.framework */,
 				AAB072B413971AEA008AF393 /* UIKit.framework */,
 				AAB0726B139719AC008AF393 /* Foundation.framework */,
 				EB60ECC4177F8C83005A041A /* CoreGraphics.framework */,
@@ -463,8 +458,8 @@
 			);
 			name = "KIF Tests";
 			productName = "KIF Tests";
-			productReference = EB60ECEB177F8DB3005A041A /* KIF Tests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productReference = EB60ECEB177F8DB3005A041A /* KIF Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		EB72043E1680DDAD00278DA2 /* KIF */ = {
 			isa = PBXNativeTarget;
@@ -489,7 +484,7 @@
 		AAB0725F139719AC008AF393 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 			};
 			buildConfigurationList = AAB07262139719AC008AF393 /* Build configuration list for PBXProject "KIF" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -603,7 +598,6 @@
 				EB72044D1680DDAD00278DA2 /* KIFTestCase.m in Sources */,
 				EB72044E1680DDAD00278DA2 /* KIFSystemTestActor.m in Sources */,
 				EB72044F1680DDAD00278DA2 /* KIFUITestActor.m in Sources */,
-				EBAFFF3917C7C824003E3A1C /* SenTestCase-KIFAdditions.m in Sources */,
 				EBAE487D17A45A8E0005EE19 /* NSBundle-KIFAdditions.m in Sources */,
 				EBAE488217A460E50005EE19 /* NSError-KIFAdditions.m in Sources */,
 				EBAE488817A4E5C30005EE19 /* KIFTestStepValidation.m in Sources */,
@@ -703,7 +697,6 @@
 		AAB07270139719AC008AF393 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREFIX_HEADER = "Classes/KIF-Prefix.pch";
@@ -725,7 +718,6 @@
 		AAB07271139719AC008AF393 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PREFIX_HEADER = "Classes/KIF-Prefix.pch";
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
@@ -766,6 +758,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -792,6 +785,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
@@ -812,7 +806,11 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = "\"$(SDKROOT)/Developer/Library/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\\\"$(SDKROOT)/Developer/Library/Frameworks\\\"",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KIF Tests/KIF Tests-Prefix.pch";
@@ -826,8 +824,8 @@
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
 		};
@@ -845,7 +843,11 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
-				FRAMEWORK_SEARCH_PATHS = "\"$(SDKROOT)/Developer/Library/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\\\"$(SDKROOT)/Developer/Library/Frameworks\\\"",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KIF Tests/KIF Tests-Prefix.pch";
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
@@ -853,9 +855,9 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				VALIDATE_PRODUCT = YES;
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
@@ -864,7 +866,10 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				DSTROOT = /tmp/KIF.dst;
-				FRAMEWORK_SEARCH_PATHS = "\"$(SDKROOT)/Developer/Library/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = KIF;
 			};
@@ -875,7 +880,10 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				DSTROOT = /tmp/KIF.dst;
-				FRAMEWORK_SEARCH_PATHS = "\"$(SDKROOT)/Developer/Library/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = KIF;
 			};
@@ -884,7 +892,6 @@
 		EBAE48FF17A5B1380005EE19 /* Coverage */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
 				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
@@ -909,7 +916,10 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				DSTROOT = /tmp/KIF.dst;
-				FRAMEWORK_SEARCH_PATHS = "\"$(SDKROOT)/Developer/Library/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = KIF;
 			};
@@ -971,6 +981,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -990,7 +1001,11 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = "\"$(SDKROOT)/Developer/Library/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\\\"$(SDKROOT)/Developer/Library/Frameworks\\\"",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KIF Tests/KIF Tests-Prefix.pch";
@@ -1004,8 +1019,8 @@
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Coverage;
 		};

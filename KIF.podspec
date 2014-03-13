@@ -9,6 +9,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '4.3'
   s.source_files = 'Classes', 'Additions'
   s.public_header_files = 'Classes/**/*.h', 'Additions/**/*-KIFAdditions.h'
-  s.frameworks  = 'SenTestingKit', 'CoreGraphics'
+  s.frameworks  = 'SenTestingKit', 'CoreGraphics', 'XCTest',
   s.prefix_header_contents = '#import <CoreGraphics/CoreGraphics.h>'
 end

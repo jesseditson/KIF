@@ -9,6 +9,7 @@
 
 #import "KIFTestCase.h"
 #import <UIKit/UIKit.h>
+#import <SenTestingKit/NSException_SenTestFailure.h>
 #import "UIApplication-KIFAdditions.h"
 #import "KIFTestActor.h"
 
@@ -22,8 +23,8 @@
     if (!self) {
         return nil;
     }
-
-    [self raiseAfterFailure];
+    
+    self.continueAfterFailure = NO;
     return self;
 }
 
