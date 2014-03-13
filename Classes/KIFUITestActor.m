@@ -729,11 +729,11 @@
     
     if (!cell) {
         if (indexPath.section >= tableView.numberOfSections) {
-            [self failWithError:[NSError KIFErrorWithFormat:@"Section %d is not found in table view", indexPath.section] stopTest:YES];
+            [self failWithError:[NSError KIFErrorWithFormat:@"Section %ld is not found in table view", (long)indexPath.section] stopTest:YES];
         }
         
         if (indexPath.row >= [tableView numberOfRowsInSection:indexPath.section]) {
-            [self failWithError:[NSError KIFErrorWithFormat:@"Row %d is not found in section %d of table view", indexPath.row, indexPath.section] stopTest:YES];
+            [self failWithError:[NSError KIFErrorWithFormat:@"Row %ld is not found in section %ld of table view", (long)indexPath.row, (long)indexPath.section] stopTest:YES];
         }
         
         [tableView scrollToRowAtIndexPath:indexPath atScrollPosition:UITableViewScrollPositionMiddle animated:YES];
@@ -775,11 +775,11 @@
     }
     
     if (section >= collectionView.numberOfSections) {
-        [self failWithError:[NSError KIFErrorWithFormat:@"Section %d is not found in collection view", section] stopTest:YES];
+        [self failWithError:[NSError KIFErrorWithFormat:@"Section %ld is not found in collection view", (long)section] stopTest:YES];
     }
     
     if (item >= [collectionView numberOfItemsInSection:section]) {
-        [self failWithError:[NSError KIFErrorWithFormat:@"Item %d is not found in section %d of collection view", item, section] stopTest:YES];
+        [self failWithError:[NSError KIFErrorWithFormat:@"Item %ld is not found in section %ld of collection view", (long)item, (long)section] stopTest:YES];
     }
     
     indexPath = [NSIndexPath indexPathForItem:item inSection:section];
